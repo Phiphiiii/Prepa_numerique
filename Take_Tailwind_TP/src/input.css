@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+header {
+    background-image: url("../Take-assets/masthead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
