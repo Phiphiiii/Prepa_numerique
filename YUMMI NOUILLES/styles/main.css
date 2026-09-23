@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
+
+body {
+    background-color: #F3F3F3;
+    width: 100%;
+    margin:0;
+    rotate: 180deg;
+}
+
+header {
+    display:flex;
+}
+
+img#logo_header {
+    width:4.5rem;
+    height:4.5rem;
+    margin: 0.625rem 1.563rem 0 2.188rem;
+}
+
+nav {
+    width: auto;
+    height: auto;
+    display:flex;
+    align-items: center;
+}
+
+a {
+    padding: 0 0.625rem 0 0;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* SECTION 1 */
+section.section_acceuil {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem; 
+    padding-bottom: 6rem; 
+}
+
+p.title_acceuil {
+    font-family: 'Bebas Neue';
+    font-size: 4rem;
+    margin-bottom: 1.25rem;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+span.yummy {
+    color:red;
+}
+
+button {
+    font-family: 'Bebas Neue';
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 13.5rem;
+    height: 3.5rem;
+}
+
+img#logo {
+    width: 19rem;
+    height: 19rem;
+    margin-left: 7rem;
+}
+
+
+/* SECTION 2 : ADRESSES */
+
+section.section_adresses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p.title {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-decoration: underline 0.188rem red;
+}
+
+div.adresses_div {
+    display: flex;
+}
+
+div.adresses_span {
+    margin: 1rem 3rem 8rem;
+}
+
+img.adresses {
+    width: 19rem;
+    height: 13.5rem;
+}
+
+p.adresses {
+    margin: 5px 0 0;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+a.adresses {
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+
+/* SECTION 3 : COMMANDES */
+
+section.section_commandes {
+    background-color: #D2483D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5rem;
+}
+
+p.commandes {
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 600;
+    font-size:1.25rem;
+}
+
+
+/* SECTION 4 : SAVOIR-FAIRE */
+
+section.section_savoir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+p.savoir {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size:1.25rem;
+    width: 72.3rem;
+    height: 6.25rem;
+}
+
+
+/* SECTION 5 : RESEAUX */
+
+section.section_reseaux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.reseaux {
+    width: 15.5rem;
+    height: 15.5rem;
+    margin: 2rem;
+}
+
+
+/* SECTION 6 : CONTACT */
+
+section.section_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+p.contact {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size:1.25rem;
+    text-align: center;
+}
+
+span.contact {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size:1.25rem;
+}
+
+
+footer {
+    height: 13.5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+img.footer_reseaux {
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-right: 3rem;
+}
+
+@media (max-width: 768px) {
+    img#logo_header {
+        width:2.4rem;
+        height:2.4rem;
+    }
+
+    a {
+        padding: 0 0.625rem 0 0;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.1rem;
+        line-height: 1.813rem;
+        text-decoration: none;
+        color: black;
+    }
+
+    section.section_acceuil {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   /* centre vertical */
+        align-items: center;        /* centre horizontal */
+        min-height: 100vh;          /* prend toute la hauteur */
+        padding: 0;                 /* enlève les paddings qui cassent tout */
+        text-align: center;         /* centre le texte */
+    }
+
+    p.title_acceuil {
+        font-size: 2.7rem;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-family: 'Montserrat';
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    span.yummy {
+        color:red;
+    }
+
+    button {
+        font-family: 'Bebas Neue';
+        font-size: 1.5rem;
+        color: white;
+        background-color: black;
+        border: none;
+        width: 13.5rem;
+        height: 3.5rem;
+    }
+
+    img#logo {
+        width: 13rem;
+        height: 13rem;
+        margin-left: 0;
+    }
+}
