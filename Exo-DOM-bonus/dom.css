@@ -1,0 +1,64 @@
+
+
+/* Quadrillage coloré */
+
+#quadrillage > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#quadrillage > div > span {
+    width: 9%;
+    height: 50px;
+    border: 1px solid black;
+}
+
+/*Modale caché*/
+
+#modalCache {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    justify-self: center;
+    align-self: center;
+    border: 2px solid black;
+    visibility: hidden;
+    z-index: 99;
+}
+
+/* Survol */
+
+#survol > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#survol > div > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    opacity: 60%;
+}
+
+/* carousel */
+
+#carrousel > div > div#image {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    
+    height: 496px;
+    border: 2px solid black;
+    visibility: hidden;
+    background-size: cover;
+}
+
+#carrousel > div > div > div {
+    width: 50%;
+    height: 100%;
+}
